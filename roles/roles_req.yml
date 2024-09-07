@@ -1,0 +1,3 @@
+- src: git+https://github.com/AutomationWithAnsible/ansible-nginx.git
+  version: "v1.0.3"
+  name: ansible-nginx

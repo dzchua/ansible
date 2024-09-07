@@ -1,0 +1,7 @@
+---
+- name: webservers.yml | All roles
+  hosts: webservers
+  become: true
+
+  roles:
+    - { role: ansible-nginx, tags: ["nginx"] }
